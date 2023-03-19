@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Luxestate</title>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <!-- Meta tag Facebook -->
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- Meta tag Twitter -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@digitalocean" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+
+    <!-- Nhúng file css -->
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <a href="./" srcset="./img/logo.png" class="logo"></a>
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Apartment</a></li>
+                <li><a href="#">How It Work</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="cta">
+                <a href="#" class="btnmain">Join Us</a>
+                <a href="#" class="btnmainyellow">Getting Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="container">
+            <div class="contact">
+                <h2 class="title">Liên hệ</h2>
+                <form action="#" method="POST" class="contactform">
+
+                    <div class="form__input">
+                        <label for="fullname">Họ và tên</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" />
+                    </div>
+
+                    <div class="form__input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Nhập email" />
+                    </div>
+
+                    <div class="form__input">
+                        <label for="tel">Số điện thoại</label>
+                        <input type="email" id="tel" name="tel" placeholder="Nhập số điện thoại" />
+                    </div>
+
+                    <div class="form__input">
+                        <h6 class="titleinput">Chọn dịch vụ</h6>
+                        <p class="item">
+                            <input type="checkbox" id="service1" name="service1" value="build" />
+                            <label for="service1">Xây dựng thương hiệu</label>
+                        </p>
+                        <p class="item">
+                            <input type="checkbox" id="service2" name="service2" value="design" />
+                            <label for="service2">Thiết kế</label>
+                        </p>
+                        <p class="item">
+                            <input type="checkbox" id="service3" name="service3" value="code" />
+                            <label for="service3">Lập trình</label>
+                        </p>
+                    </div>
+
+                    <div class="form__input">
+                        <h6 class="titleinput">Loại công ty</h6>
+
+                        <p class="item">
+                            <input type="radio" id="ca-nhan" name="type" value="canhan" />
+                            <label for="ca-nhan">Cá nhân</label>
+                        </p>
+                        <p class="item">
+                            <input type="radio" id="cong-ty" name="type" value="congty" />
+                            <label for="cong-ty">Công ty</label>
+                        </p>
+                        <p class="item">
+                            <input type="radio" id="tap-doan" name="type" value="tapdoan" />
+                            <label for="tap-doan">Tập đoàn</label>
+                        </p>
+                    </div>
+
+                    <div class="form__input">
+                        <h6 class="titleinput">Chủ đề</h6>
+                        <select name="topic" id="topic">
+                            <option value="topic1">Hợp tác</option>
+                            <option value="topic2">Khiếu nại</option>
+                            <option value="topic3">Góp ý</option>
+                        </select>
+                    </div>
+
+                    <div class="form__input">
+                        <h6 class="titleinput">Nội dung</h6>
+                        <textarea name="content" id="content" cols="30" rows="10" placeholder="Nhập nội dung"></textarea>
+
+                    </div>
+
+                    <div class="form__button">
+                        <button type="submit">Gửi</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer></footer>
+</body>
+
+</html>
